@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+.list-box {
+  margin-bottom: 50px;
+}
+.list-item {
+  padding: 20px 0 20px 20px;
+}
+.list-item:nth-child(odd) {
+  background-color: lightgray;
+}
+.color-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-item {
+  width: 30%;
+  height: 200px;
+  margin-bottom: 40px;
+}
+.box-item:nth-child(2) {
+  margin: 0 5%;
+}
+.box-item:nth-child(5) {
+  margin: 0 5%;
+}
+.box-item:nth-child(8) {
+  margin: 0 5%;
+}
+.box-item:nth-child(7) {
+  margin-bottom: 0;
+}
+.box-item:nth-child(9) {
+  margin-bottom: 0;
+}
+.color-box .orange {
+  background-color: orange;
+}
+.color-box .yellow {
+  background-color: yellow;
+}
